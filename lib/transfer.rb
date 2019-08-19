@@ -24,7 +24,6 @@ class Transfer
     elsif @sender.valid? == false
       @status = "rejected"
       "Transaction rejected. Please check your account balance."
-       binding.pry
     end
   end
   
